@@ -22,4 +22,8 @@ url = 'http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/4296k/prog.m3u8|X-F
 li = xbmcgui.ListItem('nbc!', iconImage='DefaultVideo.png')
 xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
 
+url = 'http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=66.171.228.102'
+li = xbmcgui.ListItem('nbc2!', iconImage='DefaultVideo.png')
+xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
+
 xbmcplugin.endOfDirectory(addon_handle)
