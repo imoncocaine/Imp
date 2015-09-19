@@ -14,6 +14,7 @@
     <summary>ImpFootball</summary>
 	<description lang="en">Addon to watch live football</description>
     <platform>all</platform>
+	<datadir zip="true">https://raw.githubusercontent.com/imoncocaine/Imp/master/zips/plugin.video.impfootball/plugin.video.impfootball.zip</datadir>
   </extension>
 </addon>
 
