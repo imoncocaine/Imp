@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.impfootball" name="ImpFootball" version="0.0.1" provider-name="jeffspi">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ImpFootball</summary>
+		<description lang="en">Addon to watch live football</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/imoncocaine/Imp/</source>
+		<email>imoncocaine@gmail.com</email>
+	</extension>
+</addon>
 <addon id="repository.impfootball" name="ImpFootball Repo" version="1.0" provider-name="jeffspi">
 	<extension point="xbmc.addon.repository" name="ImpFootball Addon Repository">
 		<info compressed="false">https://raw.githubusercontent.com/imoncocaine/Imp/master/addons.xml</info>
