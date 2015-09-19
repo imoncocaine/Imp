@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.impfootball"
-       name="ImpFootball"
+       name="ImpFootball2"
        version="0.0.1"
        provider-name="jeffspi">
   <requires>
