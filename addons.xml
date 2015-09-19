@@ -21,7 +21,7 @@
 	<extension point="xbmc.addon.repository" name="ImpFootball Addon Repository">
 		<info compressed="false">https://raw.githubusercontent.com/imoncocaine/Imp/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/imoncocaine/Imp/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/imoncocaine/Imp/master/zips</datadir>
+		<datadir zip="true">https://raw.githubusercontent.com/imoncocaine/Imp/master/zips/repository.impfootball/repository.impfootball.zip</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install My Addons</summary>
