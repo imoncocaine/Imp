@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.impfootball" name="ImpFootball" version="0.0.1" provider-name="jeffspi">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -28,3 +29,4 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+</addons>

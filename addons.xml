@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.impfootball"
-       name="ImpFootball"
-       version="0.0.1"
-       provider-name="jeffspi">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>ImpFootball</summary>
-	<description lang="en">Addon to watch live football</description>
-    <platform>all</platform>
-	<datadir zip="true">https://raw.githubusercontent.com/imoncocaine/Imp/master/zips/plugin.video.impfootball/plugin.video.impfootball.zip</datadir>
-  </extension>
+<addon id="plugin.video.impfootball" name="ImpFootball" version="0.0.1" provider-name="jeffspi">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ImpFootball</summary>
+		<description lang="en">Addon to watch live football</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/imoncocaine/Imp/</source>
+		<email>imoncocaine@gmail.com</email>
+	</extension>
 </addon>
 
 <addon id="repository.impfootball" name="ImpFootball Repo" version="1.0" provider-name="jeffspi">
